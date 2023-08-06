@@ -5,7 +5,7 @@
 class Rock : public Move
 {
     public:
-        Paper();
+        Rock();
         void compare(Move* move);
 };
 
