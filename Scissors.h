@@ -1,2 +1,13 @@
 #ifndef SCISSORS_H
-#define 
+#define SCISOSRS_H
+
+#include"Move.h"
+
+class Scissors : public Move
+{
+    public:
+        Scissors();
+        void compare(Move* move);
+};
+
+#endif
