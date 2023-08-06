@@ -7,6 +7,7 @@ class Monkey : public Move
     public:
         Monkey();
         void compare(Move *move);
+
 };
 
 
