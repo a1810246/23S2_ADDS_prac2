@@ -12,4 +12,8 @@ void Zombie::compare(Move* move)
     {
         flag = 1;
     }
+    if(move->getName() == "Zombie")
+    {
+        flag = 2;
+    }
 }

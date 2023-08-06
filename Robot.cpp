@@ -11,4 +11,8 @@ void Robot::compare(Move* move)
     {
         flag = 1;
     }
+    if(move->getName() == "Robot")
+    {
+        flag = 2;
+    }
 }

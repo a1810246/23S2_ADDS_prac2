@@ -11,5 +11,9 @@ void Ninja::compare(Move* move)
     {
         flag = 1;
     }
+    if(move->getName() == "Ninja")
+    {
+        flag = 2;
+    }
 }
 
