@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 
+#include "Player.h"
 #include "Rock.h"
 #include "Paper.h"
 #include "Scissors.h"
