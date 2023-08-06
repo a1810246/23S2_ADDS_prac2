@@ -11,4 +11,8 @@ void Rock::compare(Move* move)
     {
         flag = 1;
     }
+    if(move->getName() == "Rock")
+    {
+        retu
+    }
 }
