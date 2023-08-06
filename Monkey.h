@@ -4,9 +4,9 @@
 #include "Move.h"
 class Monkey : public Move
 {
-public:
-    Monkey();
-    void compare(Move *move);
+    public:
+        Monkey();
+        void compare(Move *move);
 };
 
 
