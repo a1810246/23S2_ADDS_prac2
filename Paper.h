@@ -7,7 +7,7 @@ class Paper : public Move
 {
     public:
         Paper();
-        void compare(Move *move);
+        void compare(Move* move);
 };
 
 #endif
