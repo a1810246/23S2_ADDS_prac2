@@ -7,12 +7,12 @@ Computer::Computer() : Player("Computer")
 
 }
 
-Computer::COmputer(std::string name) : Player(name)
+Computer::Computer(std::string name) : Player(name)
 {
 
 }
 
-Move* COmputer::makeMove()
+Move* Computer::makeMove()
 {
     return new Rock();
 }

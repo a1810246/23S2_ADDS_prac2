@@ -9,7 +9,7 @@ void Scissors::compare(Move* move)
 {
     if(move->getName() == "Rock")
     {
-        flat = 1;
+        flag = 1;
     }
 }
 
