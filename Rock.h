@@ -7,6 +7,6 @@ class Rock : public Move
     public:
         Paper();
         void compare(Move* move);
-}
+};
 
 #endif
