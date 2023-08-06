@@ -1,6 +1,6 @@
 #include "Paper.h"
 
-Paper::Paper() : move("Paper")
+Paper::Paper() : Move("Paper")
 {
 
 }
