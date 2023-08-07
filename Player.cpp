@@ -63,6 +63,6 @@ Move* Player::returnMove(string moveName)
         return new Robot();
     }
 
-    return nullptr;
+    //return nullptr;
 }
 
