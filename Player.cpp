@@ -67,6 +67,6 @@ Move* Player::returnMove(string moveName)
         return new Zombie();
     }
 
-    //return nullptr;
+    return nullptr;
 }
 
