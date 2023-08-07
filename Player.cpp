@@ -62,6 +62,10 @@ Move* Player::returnMove(string moveName)
     {
         return new Robot();
     }
+    else if(moveName == "Zombie")
+    {
+        return new Zombie();
+    }
 
     //return nullptr;
 }
