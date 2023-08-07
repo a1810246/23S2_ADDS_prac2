@@ -11,8 +11,8 @@ void Pirate::compare(Move* move)
     {
         flag = 1;
     }
-    if(move->getName() == "Pirate")
+    /*if(move->getName() == "Pirate")
     {
         flag = 2;
-    }
+    }*/
 }

@@ -11,8 +11,8 @@ void Paper::compare(Move* move)
     {
         flag = 1;
     }
-    if(move->getName()=="Paper")
+    /*if(move->getName()=="Paper")
     {
         flag = 2;
-    }
+    }*/
 }

@@ -11,9 +11,9 @@ void Scissors::compare(Move* move)
     {
         flag = 1;
     }
-    if(move->getName() == "Scissors")
+    /*if(move->getName() == "Scissors")
     {
         flag = 2;
-    }
+    }*/
 }
 

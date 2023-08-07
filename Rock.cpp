@@ -11,8 +11,8 @@ void Rock::compare(Move* move)
     {
         flag = 1;
     }
-    if(move->getName() == "Rock")
+    /*if(move->getName() == "Rock")
     {
         flag = 2;
-    }
+    }*/
 }
