@@ -14,7 +14,6 @@ public:
     Human(string name);
     Move *makeMove();
 
-private:
 };
 
 #endif
